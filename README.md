@@ -4,7 +4,7 @@
 
 ### 使用方法
 
-1、安装包
+1、安装包
 
 ```bash
 npm install v-func-line --save-dev
