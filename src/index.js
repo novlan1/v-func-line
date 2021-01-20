@@ -1,6 +1,7 @@
 const DEFAULT_DELAY = 500;
 const MIN_DELAY = 300;
 
+// 主方法
 const install = function (Vue, options) {
   let delay = DEFAULT_DELAY;
   const funcLineMap = (options && options.funcLineMap) || {};
@@ -23,6 +24,7 @@ const install = function (Vue, options) {
 };
 
 
+// 获取元素，赋予属性
 function addSourceLink(funcLineMap, gitLink) {
   const sourceEle = document.getElementsByClassName('source-btn');
 
@@ -43,6 +45,7 @@ function addSourceLink(funcLineMap, gitLink) {
   });
 }
 
+// 获取a标签的链接
 function getHref(ele, funcLineMap, gitLink) {
   const eleClass = ele.classList && ele.classList[1] ? ele.classList[1] : '';
   const linkPostFix = funcLineMap[eleClass];
@@ -53,6 +56,7 @@ function getHref(ele, funcLineMap, gitLink) {
   return resPath;
 }
 
+// 模仿path.resolve
 function pathResolve(dir, file = '') {
   if (file.startsWith('.')) {
     file = file.slice(1);

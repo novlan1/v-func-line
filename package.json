@@ -1,6 +1,6 @@
 {
   "name": "v-func-line",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "为Vuepress文档增加源代码链接的插件",
   "main": "index.js",
   "scripts": {

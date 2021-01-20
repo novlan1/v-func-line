@@ -1,1 +1,6 @@
-export * as default from './src/index';
+import VFuncLine from './src/index';
+
+export default VFuncLine;
+export {
+  VFuncLine
+};
