@@ -10,7 +10,16 @@
 npm install v-func-line --save-dev
 ```
 
-2、在`.vuepress/enhanceApp.js`中使用
+2、在`markdown`文件的API标题后添加`a`标签，格式为：
+
+```html
+<a class="source-btn ${文件名}-${函数名}"></a>
+```
+示例如下：
+
+<img src='./imgs/markdown-example.png' width="400"/>
+
+3、在`.vuepress/enhanceApp.js`中使用
 
 ```js
 import VFuncLine from 'v-func-line';
