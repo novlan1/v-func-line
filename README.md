@@ -48,8 +48,9 @@ export default({
 ### 效果
 
 文档中：
-<img src='./imgs/doc-example.png' width="500" />
+
+<p><img src='./imgs/doc-example.png' width="500" /></p>
 
 点击后跳转到Git仓库：
-<img src='./imgs/link-example.png' width="500" />
+<p><img src='./imgs/link-example.png' width="500" /></p>
 
