@@ -96,7 +96,7 @@ function addSourceLink(funcLineMap, gitLink) {
 
       item.href = href;
       item.target = '_blank';
-      item.style = 'position: absolute;right: 0;bottom: 6px;font-size: 1rem;';
+      item.style = 'position: absolute;right: 0;bottom: 6px;font-size: 1rem;z-index: 1;';
       item.innerText = 'source';
     }
   });
