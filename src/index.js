@@ -80,7 +80,7 @@ function getFileName(dir) {
 
 // 去除函数参数
 function getPureFuncName(func) {
-  return func.replace(/\(.*\)/, '')
+  return func.replace(/\(.*$/, '')
 }
 
 // 获取元素，赋予属性
